@@ -92,7 +92,7 @@
 					cache: false
 					})
 					.done(function( sitemap ) {
-						var template = "<li><a href="{{menu.link}}">{{menu.name}}</a></li>";
+						var template = '<li><a href="{{menu.link}}">{{menu.name}}</a></li>';
 						var menu = null;
 						$.each(sitemap, function(i, item) {
 							menu = template.replace("{{menu.link}}",sitemap[i].link).replace("{{menu.name}}",sitemap[i].name);
