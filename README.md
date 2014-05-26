@@ -1,4 +1,3 @@
 quaestor
-========
+===
 
-Quaestor Plugin

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Quaestor Business Solutions">
+		<meta name="author" content="Wellington Marinho">
+		<link rel="shortcut icon" href="../../../api/repos/quaestor/static/custom/ico/favicon.ico">
+		
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Quaestor Business Solutions</title>
+        <!-- Bootstrap core CSS -->
+        <link href="../../../api/repos/quaestor/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">      
+        @HEADER@        
+        <!--<link rel="stylesheet" type="text/css" href="../../../api/repos/quaestor/static/system/css/cpk.css" /> -->
+		
+		<!-- Just for debugging purposes. Don't actually copy this line! -->
+		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	
+    </head>
+    <body>
+	
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#"><img src="../../../api/repos/quaestor/static/img/logo.png" /></a>
+			</div>
+			<div class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			  </ul>
+			</div><!--/.nav-collapse -->
+		  </div>
+		</div>
+		<!--
+        <div class="cpkWrapper">
+            <div class="cpkHeader">
+                <div id='cpkLogo'  class='span-18 cpkLogo' >
+                </div>
+                <div id='cpkText'  class='span-4 cpkSmall' >
+                    .Quaestor
+                </div>
+                <div id='cpkVersion'  class='span-3 last cpkVersion' >
+                    v TRUNK_SNAPSHOT
+                </div>
+            </div>
+			
+            <div id='cpkSiteMapObj' class='cpkNavigation'>
+                <script type="text/javascript">
+                    var render_cpkSiteMap = {
+                        type: "siteMap",
+                        name: "render_cpkSiteMap",
+                        siteMapSelectedParameter: "Dashboards.context.file",
+                        priority: "5",
+                        parameters: [],
+                        executeAtStart: true,
+                        ajaxUrl:  'getSitemapJson',
+                        htmlObject: "cpkSiteMapObj",
+                        listeners: []
+                    };
+
+                    Dashboards.addComponents([render_cpkSiteMap]);
+                </script>
+            </div>
+			-->
+            <div id="content" class="cpkContent">
+                @CONTENT@
+            </div>
+            <div class="cpkFooter">
+                @FOOTER@
+            </div>
+        </div>
+    </body>
+</html>

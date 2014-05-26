@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin title="quaestor" loader="DEFAULT">
+<overlays>
+		<overlay id="startup.quaestor" resourcebundle="content/quaestor/resources/lang/messages">
+			<menubar id="toolsmenu">
+	        	<menuitem id="quaestor" label="${Launcher.quaestor}" command="mantleXulHandler.openUrl('${Launcher.quaestor}','${Launcher.quaestor_TOOLTIP}','plugin/quaestor/api/default')"/>
+	      	</menubar>
+	    </overlay>
+	</overlays>
+	<lifecycle-listener class="pt.webdetails.cpk.CpkLifecycleListener"/>
+	<static-paths>
+		<static-path url="/quaestor/static" localFolder="static"/>
+		<static-path url="/quaestor/resources" localFolder="resources"/>
+	</static-paths>
+	<content-types>
+		<content-type>
+			<title>Quaestor</title>
+			<description></description>
+			<company name="" url="" logo="@PLUGIN_COMPANY_LOGO@"></company>
+		</content-type>
+	</content-types>
+	<content-generator
+		id="quaestor"
+		title="Quaestor"
+		type="quaestor"
+		class="pt.webdetails.cpk.CpkContentGenerator"/>
+	<!-- Menu entry -->
+	<menu-items>
+		<!--<menu-item id="quaestor_main" anchor="tools-submenu" label="Quaestor" command="content/quaestor/" type="MENU_ITEM" how="LAST_CHILD"/>-->
+	</menu-items>
+</plugin>
