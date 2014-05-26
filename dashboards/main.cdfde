@@ -1,6 +1,6 @@
 {
  "layout": {
-  "title": "main",
+  "title": "Quaestor Bootstrap Template",
   "rows": [
    {
     "id": "980dbb2e-1726-7ec1-f9a6-885cb9270006",
@@ -15,7 +15,7 @@
      },
      {
       "name": "height",
-      "value": "30",
+      "value": "",
       "type": "Integer"
      },
      {
@@ -53,7 +53,7 @@
      },
      {
       "name": "html",
-      "value": "<h2>Quaestor Bootstrap Plugin - Dashboard 1</h2>\n ",
+      "value": "<h2>Quaestor Bootstrap Plugin - Dashboard 1</h2> ",
       "type": "Html"
      },
      {
